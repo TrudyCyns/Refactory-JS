@@ -24,6 +24,7 @@ for (i = 0; i <= 10; i++) {
 
 console.log("======================");
 
+// Static Function
 function myLoop() {
     for (let i = 0; i <= 100; i += 10) {
         console.log(i);
