@@ -1,0 +1,44 @@
+// Structured/Functional programming: divide problem into smaller problems and solve them top-down.
+// OOP: Emphasises devloping software basing on real world objects.
+/*
+    Concepts:
+    Classes, Objects, Polymorphism, Abstraction, Encapsulation and Inheritance
+*/
+
+// Classes vis-a-vis Objects
+
+/*
+    A class is a blueprint of an object. 
+    An object is an instance of a class.
+    Classes are always in singular.
+    A class defines which features an object should have.
+*/
+
+//Concepts
+
+/* INHERITENCE
+    We can have a class like dad but there can be another class of dad coming from the previous.
+    Sub/Derived/Child classes inherit properties of the super/base/parent class.
+    The ability of a sub class to take om the properties and methods of a super class.
+*/
+/* ABSTRACTION
+    The ability by a class to hide some of its impementation/details from the rest so that you can only focus on it.
+    Look at it during the naming of classes. 
+    Enables us to identify and/or create objects.
+    It represents the level of class representations. 
+    There is ambiguity when naming classes. eg (Which car?).
+    Details of what is going to be considered is not known until individual objects are creates.   
+*/
+/* ENCAPSULATION
+    You group sth, determine what to use and what not to use.
+    How would you want to communicate with others.
+    Ability to hide some of your implementations and decide how other classes access your methods.
+    Protected(selected viewership), public(everyone), private(none) keywords to determine what is accessible.
+*/
+/* POLYMORPHISM
+    The ability by a class to take on two or more forms.    
+*/
+
+/* 
+    To identify objects of a class use is-a statement.
+*/
