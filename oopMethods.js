@@ -10,8 +10,25 @@ let Person = {
     // A class' function is called a method.
     greet: function() {
         // Statement in the method of a class is called Behavior
-        console.log("Hello");
+        // To view the behavior of a method, it must be returned.
+        return "Hello"
     }
 }
 
-console.log(typeof(Person.greet));
+console.log(Person.greet());
+
+let Employee = {
+    position: "IT Officer",
+    name: "Gertrude",
+    department: "IT",
+    salary: "500ugx",
+    age: 47,
+    married: function () {
+        return "true"
+    },
+    dead: function () {
+        return "false"
+    }
+}
+
+console.log(Employee.married());
