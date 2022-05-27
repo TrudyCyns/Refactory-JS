@@ -1,0 +1,26 @@
+Web client was designed to send requests to the web server and receive responses using the URL. 
+Respone displayed in body of web client
+
+URL: Uniform because it has a uniform way of sending request. Uniform format.
+
+Protocol defines how some things are supposed to be done.
+www - domain
+resource can be a webpage,image, file, audiofile, etc.
+Internet is a connection between client and server.
+web is a collection of electronically linked files on different servers on a network.
+
+to respond to request, web server, Standard HTTP response codes:
+    if resource requested is not availabe,response returned is 404. web browser interpretes 404 response. 
+    if resource has oddencoding orserver is booting,500 = internal server error.
+    if there is no access to resource requested, 403 = access denied.
+    if accesshas no problems atall, 200 = oK
+
+A web browser receives response from server through codes.
+
+JS looks at HTML as an object.
+HTML files taken as documents.
+
+Document Object Modeling (DOM) 
+    JS provides methods to manipulate html content
+
+Internet v. WWW v. website v. Web hosting
