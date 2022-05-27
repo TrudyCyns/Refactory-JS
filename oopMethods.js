@@ -32,3 +32,6 @@ let Employee = {
 }
 
 console.log(Employee.married());
+
+// Accessing properties defines with quotations is done differently: console.log(class["propertyName"])
+// Using let stores class in memory. ie let Car = {} will store car in memory but Car = {} isn't storedin memory. 

@@ -2,7 +2,7 @@
 Car = {}; // Has no objects within
 
 console.log(typeof(Car));
-/*
+
 Car = {
     // Properties/Xtics/Features: Properties
     "wheels": 4,
@@ -10,7 +10,8 @@ Car = {
     "model": "Toyota",
     "year": 2000
 };
-*/
+ 
+console.log(Car["wheels"]);
 
 let Food = {
     foodName: "Cassava",
