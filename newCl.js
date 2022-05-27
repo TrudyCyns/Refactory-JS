@@ -11,3 +11,4 @@ let car3 = new Car("Subaru", "1998", "5", 3);
 
 console.log(car1);
 
+// A constructor is used to create an intatiation of an object.
