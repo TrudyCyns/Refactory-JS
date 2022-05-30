@@ -17,6 +17,8 @@ to respond to request, web server: Standard HTTP response codes
 
 A web browser receives response from server through codes.
 
+A server is a piece of software (can be installed) eg IIS (Microsoft), ngx, Tomcat, Nodejs, Apache.
+
 JS looks at HTML as an object.
 HTML files taken as documents.
 
