@@ -11,7 +11,7 @@ let Person = {
     greet: function() {
         // Statement in the method of a class is called Behavior
         // To view the behavior of a method, it must be returned.
-        return "Hello"
+        return "Hello";
     }
 }
 
@@ -24,10 +24,10 @@ let Employee = {
     salary: "500ugx",
     age: 47,
     married: function () {
-        return "true"
+        return "true";
     },
     dead: function () {
-        return "false"
+        return "false";
     }
 }
 

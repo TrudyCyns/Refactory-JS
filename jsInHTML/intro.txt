@@ -1,19 +1,19 @@
-Web client was designed to send requests to the web server and receive responses using the URL. 
-Respone displayed in body of web client
+Web client (Web Browser eg Chrome, Safari) was designed to send requests to the web server and receive responses using the URL. 
+Response displayed in body of web client
 
-URL: Uniform because it has a uniform way of sending request. Uniform format.
+URL (Uniform Resource Locator): Uniform because it has a uniform way of sending request. Uniform format.
 
-Protocol defines how some things are supposed to be done.
+Protocol defines how some things are supposed to be done. - http(s) [HyperText Transfer Protocol]
 www - domain
 resource can be a webpage,image, file, audiofile, etc.
 Internet is a connection between client and server.
 web is a collection of electronically linked files on different servers on a network.
 
-to respond to request, web server, Standard HTTP response codes:
-    if resource requested is not availabe,response returned is 404. web browser interpretes 404 response. 
-    if resource has oddencoding orserver is booting,500 = internal server error.
+to respond to request, web server: Standard HTTP response codes
+    if resource requested is not availabe,response returned is 404. web browser interpretes status codes. 
+    if resource has errors or server is booting, 500 = internal server error.
     if there is no access to resource requested, 403 = access denied.
-    if accesshas no problems atall, 200 = oK
+    if access has no problems at all, 200 = oK
 
 A web browser receives response from server through codes.
 
