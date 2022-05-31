@@ -30,9 +30,7 @@
 <body>
     <h1>Accessing Elements in the DOM</h1>
     <h2>ID (#demo)</h2>
-    <div id="demo">
-        Access me by ID.
-    </div>
+    <div id="demo">Access me by ID.</div>
 
     <h2>Class (.demo)</h2>
     <div class="demo">Access me by Class (1)</div>
@@ -54,14 +52,30 @@
         // Assign all elements.
         const demoId = document.getElementById('demo');
         const demoClass = document.getElementsByClassName('demo');
+        const articleTag = document.getElementsByTagName('article');
+        const demoQuery = document.querySelector('#demo-query');
+        const demoQueryAll = document.querySelectorAll('.demo-query-all');
 
         // Change the border of ID demo to purple.
         demoId.style.border = '2px solid purple';
 
         // Change border of class demo to orange.
         for (i = 0; i < demoClass.length; i++) {
-            demoClass[i].style.border = '3px solid orange';
+            demoClass[i].style.border = '3px dashed orange';
         }
+
+        // Change the border of article tag to dotted, pink.
+        for (i = 0; i < articleTag.length; i++) {
+            articleTag[i].style.border = '4px dotted aqua';
+        }
+
+        // Change the border of demo-query ID
+        demoQuery.style.border = '5px ridge cadetblue';
+
+        // Change the border of demo-query-all Class
+        demoQueryAll.forEach(query => {
+            query.style.border = '6px groove bisque';
+        });
     </script>
 </body>
 
