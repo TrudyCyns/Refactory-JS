@@ -4,5 +4,5 @@ const changeText = () => {
 };
 
 // Listening for click event.
-const btn = document.querySelector('btn');
+const btn = document.querySelector('button');
 btn.addEventListener('click', changeText);
