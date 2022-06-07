@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="valStyle.css">
 </head>
 
-<body>
+<body onload="firstFocus()">
     <h1>Registration Form</h1>
     <form name="registration" onsubmit="">
         <ul>
             <li>
-                <label for="userId">User ID:</label>
-                <input type="text" name="userId" size="12" />
+                <label for="userId">User ID: [5 to 12 Characters]</label>
+                <input type="text" name="userId" size="12" onblur=""/>
             </li>
             <li></li>
             <li></li>
